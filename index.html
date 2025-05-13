@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+
+<html lang="en" data-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="./assets/images/icon.png" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Random Color Generator</title>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">🎨 ColorGen</div>
+      <button id="burger" aria-label="Toggle Navigation">☰</button>
+      <ul class="nav-links">
+        <li>
+          <a
+            href="https://habit-club.vercel.app/"
+            target="_blank"
+            rel="noopener"
+            >Home</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://habit-club.vercel.app/about"
+            target="_blank"
+            rel="noopener"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://github.com/SatinderSinghSall"
+            target="_blank"
+            rel="noopener"
+            >GitHub</a
+          >
+        </li>
+        <li>
+          <button id="theme-toggle" aria-label="Toggle Dark Mode">🌓</button>
+        </li>
+      </ul>
+    </nav>
+
+    <main>
+      <div class="container">
+        <h1>Generate a Random Color:</h1>
+        <button id="generate-btn">Generate a Color!</button>
+        <div id="color-box">This is your new color!</div>
+      </div>
+    </main>
+
+    <footer>
+      <p>&copy; <span id="year"></span> ColorGen. Made with ❤️</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
